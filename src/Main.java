@@ -21,14 +21,14 @@ public class Main {
         System.out.println();
         for (int i = 0; i < arrayFloat.length; i++){
             System.out.print(arrayFloat[i]);
-            if (i != arrayInt.length - 1){
+            if (i != arrayFloat.length - 1){
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < arrayBoolean.length; i++){
             System.out.print(arrayBoolean[i]);
-            if (i != arrayInt.length - 1){
+            if (i != arrayBoolean.length - 1){
                 System.out.print(", ");
             }
         }
